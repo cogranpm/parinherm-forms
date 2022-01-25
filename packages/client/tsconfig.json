@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "es2015",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "composite": true
+  },
+  "exclude": [
+    "tests/**",
+    "dist/**"
+  ],
+  "references": [
+    {
+      "path": "../shared"
+    }
+  ]
+}
